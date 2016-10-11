@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<script type="text/javascript" src="js/app.js"></script>
+<body>
+	<div class="pgbackground">
+		<label id="heading">CALCULATOR</label>
+		<div id="main">
+			<div class="row inputCal" >
+				<label id="displayLbl">0</label>
+				<input id="calInpt" value="0" type="text"  placeholder="0" />
+			</div>
+			<div class="row">
+				<span class="cell" onclick="operandPressed(this);return false;">7</span>
+				<span class="cell" onclick="operandPressed(this);return false;">8</span>
+				<span class="cell" onclick="operandPressed(this);return false;">9</span>
+				<span class="cell" onclick="operatorPressed(this);return false;">x</span>
+			</div>
+			<div class="row">
+				<span class="cell" onclick="operandPressed(this);return false;">4</span>
+				<span class="cell" onclick="operandPressed(this);return false;">5</span>
+				<span class="cell" onclick="operandPressed(this);return false;">6</span>
+				<span class="cell" onclick="operatorPressed(this);return false;">-</span>
+			</div>
+			<div class="row">
+				<span class="cell" onclick="operandPressed(this);return false;">1</span>
+				<span class="cell" onclick="operandPressed(this);return false;">2</span>
+				<span class="cell" onclick="operandPressed(this);return false;">3</span>
+				<span class="cell" onclick="operatorPressed(this);return false;">+</span>
+			</div>
+			<div class="row">
+				<span class="cell" onclick="operandPressed(this);return false;">0</span>
+				<span class="cell" onclick="clearScreen();return false;">C</span>
+				<span class="cell" onclick="equals();return false;">=</span>
+				<span class="cell" onclick="operatorPressed(this);return false;">/</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
