@@ -1,0 +1,64 @@
+	.container { 
+		width:21.5%; 
+		margin: 0 auto;
+		background: #FFA500;
+		padding: 10px;
+		border-radius: 5%;
+	}
+	#main { 
+		text-align: center;
+		background: #FFA500;
+	}
+	#heading{
+		font-size: 30px;
+		font-weight: bold;
+		color:#fff;
+	}
+	.row {
+		display: table;
+	}
+	.cell {
+		border: 1px solid #eee;
+		display: table-cell;
+		font-size: 25px;
+		height: 50px;
+		padding: 10px;
+		text-align: center;
+		vertical-align: middle;
+		width: 75px;
+		cursor: pointer;
+		border-radius: 5%;
+		color: #000;
+	}
+
+	.tip{
+		background: #F08080;
+		font-weight: bold;
+
+	}
+	.cell:hover {
+		background-color: #c0c0c0;
+	}
+
+	.inputCal{ 
+		width: 240px;
+	}
+	.inputCal input[type="text"]{    
+		font-size: 32px;
+		font-weight: bold;
+		padding: 10px;
+		width: 266px;
+		text-align: right;
+		border: 1px solid #eee;
+		border-top-width: 0px;
+	}
+
+	#displayLbl { 
+		display: block;
+		padding: 5px;
+		text-align: right;
+		border: 1px solid #eee;
+		border-bottom-width: 0px;
+		color: #888;
+		background: #fff;
+	}
