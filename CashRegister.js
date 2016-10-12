@@ -1,3 +1,5 @@
+
+/*cashRegister object with properties and functions*/
 var cashRegister = {
     total:0,
     lastTransactionAmount:0,
@@ -22,6 +24,7 @@ var cashRegister = {
     
 };
 
+/*calling the object's functions*/
 cashRegister.scan('eggs',1);
 cashRegister.scan('milk',1);
 cashRegister.scan('magazine',1);
